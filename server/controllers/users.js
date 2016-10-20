@@ -93,12 +93,14 @@ function authenticate(req, res, next){
   },(err, record) => {
     if(err) throw err
     if(!_.isEmpty(record)){
-      var token = jwt.sign({
+      var tokenValue = jwt.sign({
         "username": record.username
       }, req.app.get('secretToken'), {
         expiresIn: 86400 // expires in 24 hours
       })
-      res.status(200).json(token)
+      res.status(200).json({
+        token: tokenValue
+      })
     } else {
       res.status(400).json({error:"Username already exists"})
     }
