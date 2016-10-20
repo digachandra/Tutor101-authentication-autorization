@@ -1,0 +1,40 @@
+{
+  "name": "testing-restful-api-with-mocha-chai",
+  "version": "1.0.0",
+  "description": "Testing RESTful API CRUD with Mocha & Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digachandra/Tutor101-ExpressJS-RESTful-CRUD-with-Mocha-Chai.git"
+  },
+  "keywords": [
+    "Testing",
+    "Mocha",
+    "Chai",
+    "RESTful CRUD",
+    "TUTOR 101"
+  ],
+  "author": "Septhianto Diga <hi@digachandra.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digachandra/Tutor101-ExpressJS-RESTful-CRUD-with-Mocha-Chai/issues"
+  },
+  "homepage": "https://github.com/digachandra/Tutor101-ExpressJS-RESTful-CRUD-with-Mocha-Chai#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.16.4",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}

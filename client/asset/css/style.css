@@ -1,0 +1,68 @@
+html{
+  background: #add8e6; // light blue
+}
+body{
+  background: transparent;
+}
+#content{
+  padding: 100px 0px;
+}
+.panel{
+  background: #3E4095;
+  border-radius: 0px;
+  padding: 10px;
+}
+.panel .panel-wrapper{
+  border: 2px solid #FFF212;
+}
+.panel .panel-heading{
+  padding-top: 20px;
+}
+.panel .panel-heading *{
+  font-weight: bold;
+  margin: 0px;
+}
+.panel label, .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel span, .panel p, .panel{
+  color: #FFF;
+}
+.form-control{
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.btn{
+  border-radius: 0px;
+  outline: none !important;
+}
+.btn.btn-theme{
+  background: #FFF212;
+  border: 2px solid #FFF212;
+  color: #3E4095;
+  font-weight: bold;
+}
+.btn.btn-theme:hover, .btn.btn-theme:focus{
+  background: transparent;
+  color: #FFF212;
+}
+.alert{
+  margin: 0px;
+}
+.alert.alert-theme{
+  background: #FFF;
+  border-radius: 0px;
+  color: #3E4095;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+}
+ul#content-list{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul#content-list li:nth-child(n+2){
+  border-top: 1px solid #FFF212;
+  margin-top: 20px;
+  padding-top: 20px;
+}
