@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="asset/css/style.css">
 </head>
-<body>
+<body id="page-signup">
   <!-- Content goes here - START -->
-  <div id="content" class="container">
+  <div id="content" class="container hidden">
     <div class="row">
       <div class="col-sm-4 col-sm-offset-4">
         <div class="panel">
@@ -23,11 +23,11 @@
               <form id="content-form">
                 <div class="form-group">
                   <label for="txt-username">Username</label>
-                  <input id="txt-username" type="text" class="form-control" autocomplete="off" />
+                  <input id="txt-username" type="text" class="form-control" autocomplete="off" required />
                 </div>
                 <div class="form-group">
                   <label for="txt-password">Password</label>
-                  <input id="txt-password" type="password" class="form-control" autocomplete="off" />
+                  <input id="txt-password" type="password" class="form-control" autocomplete="off" required />
                 </div>
                 <input type="submit" class="btn btn-theme btn-block" value="SIGN UP" />
               </form>

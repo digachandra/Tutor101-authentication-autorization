@@ -9,11 +9,18 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="asset/css/style.css">
 </head>
-<body>
+<body id="page-dashboard">
   <!-- Content goes here - START -->
-  <div id="content" class="container">
+  <div id="content" class="container hidden">
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
+        <div class="panel">
+          <div class="panel-wrapper">
+            <div class="panel-body">
+              <a class="btn btn-theme btn-block" onclick="actionOut()">SIGN OUT</a>
+            </div>
+          </div>
+        </div>
         <div class="panel">
           <div class="panel-wrapper">
             <div class="panel-heading text-center">
@@ -23,7 +30,7 @@
               <form id="content-form">
                 <div class="form-group">
                   <label for="txt-name">Fruit name</label>
-                  <input id="txt-name" type="text" class="form-control" autocomplete="off" placeholder="Fruit name" />
+                  <input id="txt-name" type="text" class="form-control" autocomplete="off" placeholder="Fruit name" required />
                 </div>
                 <input type="submit" class="btn btn-theme btn-block" value="Add" />
               </form>
